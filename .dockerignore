@@ -1,0 +1,24 @@
+# Ignore dependencies and build artifacts
+node_modules
+npm-debug.log
+
+# Ignore local SQLite database directory and files
+data/
+*.db
+
+# Ignore version control and IDE configuration
+.git
+.gitignore
+.github
+.vscode
+.idea
+
+# Ignore Vercel and environment configurations
+.vercel
+.env
+.env.example
+
+# Ignore Docker files themselves
+Dockerfile
+.dockerignore
+README.md
